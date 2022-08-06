@@ -19,7 +19,7 @@ void main(){
 	printf("\nEnter r:\n");
 	scanf("%d",&r);
 	
-	for(i=a1;i<=n;i=i+r){
+	for(i=a1;i<=n;i+=r){
 		printf(" %d",i);
 	}
 }
