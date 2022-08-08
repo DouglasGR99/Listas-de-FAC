@@ -44,7 +44,7 @@ int main(){
 		
 		if(mult>maismult){
 			maismult=mult;
-			cartmais=cart;
+			cartmais=cart; 
 		}
 		
 		printf("\n%.2f pessoal",totalp);
