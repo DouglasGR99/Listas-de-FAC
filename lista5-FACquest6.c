@@ -1,21 +1,23 @@
 /*
 
-	QUESTÃO 05:
+	QUESTÃO 06:
 	Criar um programa que exiba os N
 	primeiros termos da seguinte série:
-	1,2,4,8,16,32,...
+	1,2,8,64,1024,...
 
 */
 
 #include <stdio.h>
+#include <math.h>
 
 void main(){
 	int i,n;
 	
 	printf("\nEnter n:\n");
 	scanf("%d",&n);
-
-	for(i=1;i<=n;i*=2){
+	printf("1");
+	
+	for(i=2;i<=n;i=i*2*2){
 		printf(" %d",i);
 	}
 }
